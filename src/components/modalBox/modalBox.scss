@@ -1,0 +1,50 @@
+/*
+  for modal Box
+*/
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  .inner {
+    width: 5rem;
+    height: 4rem;
+    background-color: #fff;
+    .m-header {
+      height: 0.5rem;
+      color: pink;
+      font-size: 0.4rem;
+      font-weight: bold;
+      line-height: 0.5rem;
+      text-align: center;
+      background-color: #337ab7;
+    }
+
+    .content-wrapper {
+      display: flex;
+      margin-top: .1rem;
+      flex-direction: column;
+      padding: 0.15rem;
+
+
+      .topic {
+        margin-bottom: .2rem;
+        font-size: 0.35rem;
+      }
+      button {
+        font-size: 0.4rem;
+        height: .6rem;
+        line-height: .6rem;
+        // font-weight: bold;
+      }
+    }
+  }
+}
